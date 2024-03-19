@@ -122,11 +122,17 @@
     #home {
         min-height: 100%;
         padding-top: 0px;
+        display: flex;
+        flex-direction: column;
     }
 
     #banner {
-        display: none;
+        padding: 30px;
     }
+    #banner img {
+        width: 100%;
+    }
+}
 
     #cta {
         text-align: center;
