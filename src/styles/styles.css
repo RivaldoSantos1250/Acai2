@@ -59,14 +59,15 @@ header {
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
-    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: none;
 }
 
-.drop_menu.open{
+.drop_menu.open {
     height: 240px;
 }
 
-.drop_menu li{
+.drop_menu li {
     padding: 0.7rem;
     display: flex;
     align-items: center;
@@ -74,7 +75,7 @@ header {
 }
 
 @media (max-width: 992px) {
-    .nav_bar .nav_ul{
+    .nav_bar .nav_ul {
         display: none;
     }
     .nav_bar .btn_menu {
@@ -83,5 +84,13 @@ header {
 
     .drop_menu {
         display: block;
+    }
+}
+
+@media (max-width: 575px) {
+    .drop_menu {
+        top: 100px;
+        left: 2rem;
+        width: unset;
     }
 }
