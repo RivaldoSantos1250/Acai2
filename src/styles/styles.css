@@ -123,6 +123,13 @@ header {
     margin-top: 3rem;
 }
 
+.btn {
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: aqua;
+    border: none;
+}
+
 @media (min-width: 992px) {
     .main_container {
         grid-template-columns: 2fr 3fr;
