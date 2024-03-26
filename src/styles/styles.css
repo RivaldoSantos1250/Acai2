@@ -282,6 +282,10 @@ header {
     .main_img img {
         max-width: 300px;
     }
+    .main_content h1 {
+        font-size: 2.5rem; 
+    }
+
 }
 
 @media (max-width: 575px) {
