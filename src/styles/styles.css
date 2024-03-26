@@ -172,63 +172,63 @@ header {
     height: 50px;
 }
 
-.section_serve {
+.what-we-serve {
     padding: 10rem 0;
-    background-color: aqua;
+    background-color: forestgreen;
 }
 
-.section_data {
+.section-metadata {
     text-align: center;
-}
-
-.serve_title {
-    display: inline-block;
-    color: rgb(112, 10, 196);
     font-weight: 500;
+    color: aqua;
     line-height: 2.4rem;
     margin-bottom: 0.8rem;
 }
 
-.serve_description {
+.section-title {
     font-size: 2.4rem;
     line-height: 4.4rem;
     margin-bottom: 2.2rem;
 }
 
-.card_group {
-    margin: 2rem 0 2rem;
+.card-group {
+    margin: 7rem 0 2rem;
     gap: 2rem;
 }
 
 .card {
     padding: 3rem 2.2rem;
-    background-color: rgb(130, 146, 238);
+    background-color: rgb(230, 9, 9);
     border-radius: 1.2rem;
 }
 
-.card_header {
+.card-header {
     display: flex;
 }
 
-.card_header img {
+.d-grid {
+    display: grid;
+}
+
+.card-header img {
+    height: 6rem;
     margin: 0 auto;
 }
 
-.card_body {
+.card-body {
     text-align: center;
     margin: 6rem 0 2rem;
 }
 
-.card_title {
-    font-size: 1.8rem;
+.card-title {
+    font-size: 1.9rem;
     line-height: 3.3rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
 
-.card_body p {
+.card-body p {
     line-height: 2.5rem;
-    
 }
 
 @media (min-width: 992px) {
