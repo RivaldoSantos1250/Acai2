@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    background-color: rgba(243, 238, 227, 0.966);
+}
+
 .nav_item {
     list-style: none;
 }
@@ -18,6 +22,8 @@
     transition: all ease 0.5s;
     padding: 5px 5px;
     margin: 0px 15px;
+    color: #4c034d;
+    font-size: 1.1rem;
 }
 
 .nav_link:hover {
@@ -60,7 +66,7 @@ header {
     top: 60px;
     width: 300px;
     height: 0;
-    background: rgba(21, 247, 0, 0.1);
+    background: rgba(249, 255, 249, 0.164);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -83,6 +89,7 @@ header {
     display: grid;
     gap: 2rem;
     overflow: hidden;
+    position: relative;
 }
 
 .main_img img {
@@ -115,8 +122,7 @@ header {
 .section_container {
     max-width: 1200px;
     margin: auto;
-    padding: 5rem 1rem;
-    padding-bottom: 11.7rem;
+    padding: 10rem 1rem;
 }
 
 .section_description {
@@ -135,12 +141,13 @@ header {
 .btn {
     border-radius: 30px;
     padding: 15px 25px;
-    background-color: rgb(6, 180, 180);
+    background-color: #4c034d;
     border: none;
     cursor: pointer;
     font-weight: 600;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    color: rgb(255, 255, 255);
 }
 
 .btn:hover {
@@ -156,7 +163,7 @@ header {
     left: 50%;
     transform: translate(-50%);
     border-radius: 2px;
-    background: firebrick;
+    background: rgb(255, 166, 0);
     transition: all ease 0.5s;
 }
 
@@ -165,7 +172,7 @@ header {
 }
 
 .nav_ul a.active {
-    color: firebrick;
+    color: rgb(255, 166, 0);
 }
 
 .nav_ul a.active::after {
@@ -179,7 +186,7 @@ header {
 
 .what-we-serve {
     padding: 10rem 0;
-    background-color: rgba(243, 231, 206, 0.966);
+    background-color: rgba(243, 238, 227, 0.966);
 }
 
 .section-metadata {
@@ -207,8 +214,9 @@ header {
 
 .card {
     padding: 3rem 2.2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-radius: 1.2rem;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
 }
 
 .card-header {
@@ -238,6 +246,21 @@ header {
 
 .card-body p {
     line-height: 2rem;
+}
+
+.shape {
+    background-image: linear-gradient(#8b028d, #4c034d);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 100% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.main_img {
+    z-index: 999;
 }
 
 @media (min-width: 992px) {
@@ -288,13 +311,12 @@ header {
         max-width: 300px;
     }
     .main_content h1 {
-        font-size: 2.5rem; 
+        font-size: 2.5rem;
     }
 
     .main_img {
         margin-left: 0rem;
     }
-
 }
 
 @media (max-width: 575px) {
