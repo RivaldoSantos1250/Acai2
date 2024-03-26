@@ -174,7 +174,7 @@ header {
 
 .what-we-serve {
     padding: 10rem 0;
-    background-color: forestgreen;
+    background-color: rgba(243, 231, 206, 0.966);
 }
 
 .section-metadata {
@@ -189,6 +189,7 @@ header {
     font-size: 2.4rem;
     line-height: 4.4rem;
     margin-bottom: 2.2rem;
+    color: black;
 }
 
 .card-group {
@@ -198,8 +199,9 @@ header {
 
 .card {
     padding: 3rem 2.2rem;
-    background-color: rgb(230, 9, 9);
+    background-color: rgb(255, 255, 255);
     border-radius: 1.2rem;
+    margin: 3rem;
 }
 
 .card-header {
@@ -245,6 +247,24 @@ header {
     .main_img {
         grid-area: 1/2/2/3;
     }
+
+    .section-metadata {
+        text-align: left;
+    }
+    
+    .what-we-serve .section-metadata {
+        text-align: center;
+    }
+    
+    .section-title {
+        font-size: 3.2rem;
+    }
+    
+    .card-group {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2.4rem;
+    }
+    
 }
 
 @media (max-width: 992px) {
@@ -270,3 +290,4 @@ header {
         width: unset;
     }
 }
+
