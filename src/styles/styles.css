@@ -89,7 +89,7 @@ header {
     max-width: 600px;
     margin-inline: auto;
     display: flex;
-    width: 100%;
+    width: 60%;
 }
 
 .main_content h1 {
@@ -198,7 +198,6 @@ header {
     gap: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
-
 }
 
 .card {
@@ -254,20 +253,19 @@ header {
     .section-metadata {
         text-align: left;
     }
-    
+
     .what-we-serve .section-metadata {
         text-align: center;
     }
-    
+
     .section-title {
         font-size: 3.2rem;
     }
-    
+
     .card-group {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 2.4rem;
     }
-    
 }
 
 @media (max-width: 992px) {
@@ -293,4 +291,3 @@ header {
         width: unset;
     }
 }
-
