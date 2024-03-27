@@ -254,6 +254,8 @@ header {
     z-index: 999;
 }
 
+
+
 @media (min-width: 992px) {
     .main_container {
         grid-template-columns: 2fr 3fr;
