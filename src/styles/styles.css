@@ -392,3 +392,9 @@ header {
         width: calc(50% - 12px);
     }
 }
+
+@media screen and (max-width: 660px) {
+    .dish {
+        width: 100%;
+    }
+}
