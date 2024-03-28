@@ -419,6 +419,9 @@ header {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 4rem;
+    max-width: 1300px;
+    margin: auto;
+    padding: 10rem 1rem;
 }
 
 .about-img img {
@@ -437,15 +440,23 @@ header {
     line-height: 30px;
     font-size: 1rem;
     margin-bottom: 3rem;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 860px) {
-
     .about {
         grid-template-columns: 1fr;
     }
 
     .about-img {
         text-align: center;
+    }
+
+    .about-text h2 {
+        text-align: center;
+    }
+
+    .about-text p {
+        align-items: center;
     }
 }
