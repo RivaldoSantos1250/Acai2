@@ -306,6 +306,10 @@ header {
     .main_img {
         margin-left: 0rem;
     }
+
+    .section_container {
+        padding: 3rem 0  0 0;
+    }
 }
 
 @media (max-width: 575px) {
@@ -396,5 +400,9 @@ header {
 @media screen and (max-width: 660px) {
     .dish {
         width: 100%;
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
     }
 }
