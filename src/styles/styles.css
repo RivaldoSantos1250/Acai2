@@ -421,7 +421,6 @@ header {
     gap: 4rem;
     max-width: 1300px;
     margin: auto;
-    padding: 10rem 1rem;
 }
 
 .about-img img {
@@ -458,5 +457,9 @@ header {
 
     .about-text p {
         align-items: center;
+    }
+
+    .about-img img {
+        width: 60%;
     }
 }
