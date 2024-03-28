@@ -33,6 +33,10 @@ body {
 header {
     position: relative;
     padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    background-color: rgba(243, 238, 227, 0.966);
+    z-index: 99;
 }
 
 .nav_bar {
@@ -189,6 +193,14 @@ header {
     background-color: rgba(243, 238, 227, 0.966);
 }
 
+span .section-tagline {
+    text-align: center;
+    font-weight: 500;
+    color: #4c034d;
+    line-height: 2.4rem;
+    margin-bottom: 0.8rem;
+}
+
 .section-metadata {
     text-align: center;
     font-weight: 500;
@@ -249,7 +261,7 @@ header {
 }
 
 .main_img {
-    z-index: 999;
+    z-index: 9;
 }
 
 @media (min-width: 992px) {
