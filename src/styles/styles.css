@@ -310,6 +310,10 @@ header {
     .section_container {
         padding: 3rem 0 1rem 1rem;
     }
+
+    .btn-menu {
+        display: none;
+    }
 }
 
 @media (max-width: 575px) {
