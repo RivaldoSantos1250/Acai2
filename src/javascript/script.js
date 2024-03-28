@@ -24,9 +24,17 @@ $(document).ready(function () {
         } else {
             header.css("box-shadow", "5px 1px 5px rgba(0, 0, 0, 0.1)");
         }
-        sections.each(function(i) {
-            const section = $(this)
-            const sectionTop = section,offset().top -92
-        })
+        sections.each(function (i) {
+            const section = $(this);
+            const sectionTop = section.offset().top - 92;
+            const sectionBttom = sectionTop + section.outerHeight();
+
+            if (scrollPostion >= sectionTop && scrollPosition < sectionBttom) {
+                activeSectionIndex = i;
+                return false;
+            }
+        });
+
+        $(navItems[activeSectionIndex]).addClass('active');
     });
 });
