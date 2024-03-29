@@ -1,6 +1,6 @@
 .what-we-serve {
     background-color: rgba(243, 238, 227, 0.966);
-    min-height: 100vh;
+    padding: 10rem 0 0 0rem;
 }
 
 span .section-tagline {
@@ -31,7 +31,6 @@ span .section-tagline {
     display: flex;
 }
 
-
 .card-header img {
     height: 6rem;
     margin: 0 auto;
@@ -45,7 +44,6 @@ span .section-tagline {
 .card-body p {
     line-height: 2rem;
 }
-
 
 .card-group {
     margin: 7rem 0 2rem;
@@ -67,5 +65,3 @@ span .section-tagline {
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
-
-

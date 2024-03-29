@@ -26,7 +26,7 @@ $(document).ready(function () {
         }
         sections.each(function (i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 526;
+            const sectionTop = section.offset().top - 490;
             const sectionBottom = sectionTop + section.outerHeight();
 
             if (
@@ -45,27 +45,26 @@ $(document).ready(function () {
     ScrollReveal().reveal(".main_content", {
         origin: "left",
         duration: 2000,
-        distance: "40%",
     });
 
     ScrollReveal().reveal(".main_img", {
         origin: "right",
+        distance: '20%',
         duration: 3000,
-        distance: "80%",
     });
     ScrollReveal().reveal(".main_btn", { delay: 1200, duration: 1000 });
 
     ScrollReveal().reveal(".section-tagline", { delay: 500, duration: 1000 });
-    ScrollReveal().reveal(".section-title", { delay: 1000, duration: 1000 });
+    ScrollReveal().reveal(".section-title", { delay: 700, duration: 1000 });
 
     ScrollReveal().reveal("#card-one", {
         delay: 600,
     });
     ScrollReveal().reveal("#card-two", {
-        delay: 800,
+        delay: 700,
     });
     ScrollReveal().reveal("#card-three", {
-        delay: 1000,
+        delay: 800,
     });
 
     ScrollReveal().reveal(".about-text", {

@@ -5,6 +5,7 @@
     gap: 4rem;
     max-width: 1500px;
     margin: auto;
+    min-height: 100vh;
 }
 
 .about-text h2 {

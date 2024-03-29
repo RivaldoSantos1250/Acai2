@@ -20,8 +20,12 @@
     --secondary-yellow: rgb(255, 196, 0);
 }
 
+
 :root {
     --box-shadow-1: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -72,7 +76,6 @@ footer {
     margin: 10px;
     border-radius: 50%;
     text-decoration: none;
-    
 }
 
 .social-media a i {
