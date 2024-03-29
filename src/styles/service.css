@@ -1,12 +1,12 @@
 .what-we-serve {
-    padding: 10rem 0 0 0;
     background-color: rgba(243, 238, 227, 0.966);
+    min-height: 100vh;
 }
 
 span .section-tagline {
     text-align: center;
     font-weight: 500;
-    color: #4c034d;
+    color: var(--primary-color-1);
     line-height: 2.4rem;
     margin-bottom: 0.8rem;
 }
@@ -22,7 +22,7 @@ span .section-tagline {
 .section-metadata {
     text-align: center;
     font-weight: 500;
-    color: #4c034d;
+    color: var(--primary-color-1);
     line-height: 2.4rem;
     margin-bottom: 0.8rem;
 }
@@ -58,7 +58,7 @@ span .section-tagline {
     padding: 3rem 2.2rem;
     background-color: #ffffff;
     border-radius: 1.2rem;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow-1);
 }
 
 .card-title {

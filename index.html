@@ -11,9 +11,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script src="https://unpkg.com/scrollreveal"></script>
-        <title>+gostoso</title>
+        <title>+Gostoso</title>
     </head>
+
     <body>
+        <!-- NavBar -->
         <header>
             <div class="nav_bar">
                 <div class="nav_logo">
@@ -23,6 +25,7 @@
                             alt="logo mais gostoso açai"
                     /></a>
                 </div>
+
                 <ul class="nav_ul">
                     <li class="nav_item  ">
                         <a href="#inicio" class="nav_link">Início</a>
@@ -39,15 +42,13 @@
                     </li>
 
                     <li class="nav_item">
-                        <a href="#review" class="nav_link">Avaliações</a>
+                        <a href="#cardapio" class="nav_link">Cardápio</a>
                     </li>
+
                 </ul>
-                <a href="#"
-                        ><button class="btn-menu">Peça aqui</button></a
-                    >
-                <div class="btn_menu"><i class="fa-solid fa-bars"></i></div>
-                
-            </div>
+                    <a href="#"><button class="btn-menu">Peça aqui</button></a>
+                    <div class="btn_menu"><i class="fa-solid fa-bars"></i></div>
+                </div>
 
             <div class="drop_menu">
                 <li class="nav_item">
@@ -65,37 +66,43 @@
             </div>
         </header>
 
+        <!-- End NavBar -->
+
+        <!-- Main -->
+
         <main class="section_container main_container" id="inicio" >
             <div class="main_img"id="home">
-                <img  src="src/img/main2.png" alt="" />
-            </div>
-            <div class="main_content">
-                <h1>Lorem ipsum dolor sit amet.</h1>
-                <p class="section_description">
+                <img  src="src/img/main2.png" alt="" /></div>
+                <div class="main_content">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p class="section_description">
                     consectetur adipisicing elit. Non voluptate libero quasi
                     odit, explicabo architecto saepe placeat est eligendi beatae
                     voluptatum nostrum, error deserunt. Facere quos molestias
                     atque officiis nobis
-                </p>
-                <div class="main_btn">
+                    </p>
+                    <div class="main_btn">
                     <a href="https://www.whatsapp.com/" target="_blank"
-                        ><button class="btn">+55551234-5678</button></a
+                        ><button class="btn">WhatsApp </button></a
                     >
+                    </div>
                 </div>
             </div>
         </main>
+
+        <!-- End Main -->
+
+        <!-- Services -->
 
         <section class="what-we-serve" id="service">
             <div class="container1">
                 <div class="section-metadata">
                     <h2 class="section-tagline">Serviços</h2>
-
                     <h2 class="title section-title" id="teste">
                         Lorem sectetur adipisicing
                         elit.
                     </h2>
                 </div>
-
                 <div class="card-group d-grid">
                     <div class="card" id="card-one">
                         <div class="card-header">
@@ -141,6 +148,10 @@
             </div>
         </section>
 
+        <!-- End Services -->
+
+        <!-- About -->
+
         <section class="about" id="about">
             <div class="about-img"><img src="src/img/about.png" alt=""></div>
             <div class="about-text">
@@ -150,59 +161,18 @@
             </div>
         </section>
 
+        <!-- End About-->
+
+        <!-- Menu -->
 
         <section class="menu" id="cardapio">
             <h2 class="section-title1">Cardapio</h2>
             <h3 class="section-subtitle">Açai especiais</h3>
-
             <div id="dishes">
                 <div class="dish">
                     <div class="dish-heart">
                         <i class="fa-solid fa-star"></i>
                     </div>
-
-                    <img src="src/img/copo.png" alt="" class="dish-image" />
-                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
-                    <span class="dish-description"
-                        >Lorem ipsum dolor sit amet consectetur ?</span
-                    >
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <div class="main_btn">
-                        <a href="https://www.whatsapp.com/" target="_blank"
-                            ><button class="btn">PEÇA JÁ</button></a
-                        >
-                    </div>
-                    </div>
-                </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
-                    <img src="src/img/copo.png" alt="" class="dish-image" />
-                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
-                    <span class="dish-description"
-                        >Lorem ipsum dolor sit amet consectetur ?</span
-                    >
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <div class="main_btn">
-                        <a href="https://www.whatsapp.com/" target="_blank"
-                            ><button class="btn">PEÇA JÁ</button></a
-                        >
-                    </div>
-                    </div>
-                    
-                </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-
                     <img src="src/img/copo.png" alt="" class="dish-image" />
                     <h3 class="dish-title">Lorem ipsum doloron!</h3>
                     <span class="dish-description"
@@ -222,7 +192,42 @@
                     <div class="dish-heart">
                         <i class="fa-solid fa-star"></i>
                     </div>
-
+                    <img src="src/img/copo.png" alt="" class="dish-image" />
+                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
+                    <span class="dish-description"
+                        >Lorem ipsum dolor sit amet consectetur ?</span
+                    >
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <div class="main_btn">
+                        <a href="https://www.whatsapp.com/" target="_blank"
+                            ><button class="btn">PEÇA JÁ</button></a
+                        >
+                    </div>
+                    </div> 
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="src/img/copo.png" alt="" class="dish-image" />
+                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
+                    <span class="dish-description"
+                        >Lorem ipsum dolor sit amet consectetur ?</span
+                    >
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <div class="main_btn">
+                        <a href="https://www.whatsapp.com/" target="_blank"
+                            ><button class="btn">PEÇA JÁ</button></a
+                        >
+                    </div>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                     <img src="src/img/copo.png" alt="" class="dish-image" />
                     <h3 class="dish-title">Lorem ipsum doloron!</h3>
                     <span class="dish-description"
@@ -239,13 +244,15 @@
             </div>
         </section>
 
+        <!-- End Menu -->
+
+        <!-- Reviews -->
+
         <section class="review" id="review">
             <div class="heading">
                 <h2>Nossos Clientes</h2>
             </div>
-
             <div class="customers-container">
-
                 <div class="costumers-box">
                     <img src="src/img/perfil2.png" alt="">
                     <h2>Maria Julia</h2>
@@ -259,7 +266,6 @@
                         <i class="fa-solid fa-star"></i>
                     </div>
                 </div>
-
                 <div class="costumers-box">
                     <img src="src/img/perfil1.png" alt="">
                     <h2>Gabriel Franco</h2>
@@ -274,7 +280,6 @@
                     </div>
                     
                 </div>
-
                 <div class="costumers-box">
                     <img src="src/img/perfil1.png" alt="">
                     <h2>Gabriel Franco</h2>
@@ -290,6 +295,9 @@
                     
             </div>
         </section>
+
+        <!-- End Reviews -->
+
         <script src="src/javascript/script.js"></script>
     </body>
 </html>

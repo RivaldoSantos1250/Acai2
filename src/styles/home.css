@@ -1,7 +1,10 @@
+.main_container {
+    min-height: calc(100vh - 92px);
+    padding: 28px 8%;
+}
 .section_container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
-    padding: 10rem 1rem;
 }
 
 .main_container {

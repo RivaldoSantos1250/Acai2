@@ -17,7 +17,7 @@ $(document).ready(function () {
 
         const scrollPosition = $(window).scrollTop() - header.outerHeight();
 
-        let activeSectionIndex = 3;
+        let activeSectionIndex = 0;
 
         if (scrollPosition <= 0) {
             header.css("box-shadow", "none");
@@ -26,7 +26,7 @@ $(document).ready(function () {
         }
         sections.each(function (i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 1100;
+            const sectionTop = section.offset().top - 1300;
             const sectionBottom = sectionTop + section.outerHeight();
 
             if (
@@ -53,6 +53,7 @@ $(document).ready(function () {
         duration: 3000,
         distance: "80%",
     });
+    ScrollReveal().reveal(".main_btn", { delay: 1200, duration: 1000 });
 
     ScrollReveal().reveal(".section-tagline", { delay: 500, duration: 1000 });
     ScrollReveal().reveal(".section-title", { delay: 1000, duration: 1000 });

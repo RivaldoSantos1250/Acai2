@@ -1,6 +1,6 @@
 header {
     position: relative;
-    padding: 1rem 2rem;
+    padding: 28px 8%;
     position: sticky;
     top: 0;
     background-color: rgba(243, 238, 227, 0.966);
@@ -32,7 +32,7 @@ header {
     transition: all ease 0.5s;
     padding: 5px 5px;
     margin: 0px 15px;
-    color: #4c034d;
+    color: var(--primary-color-1);
     font-size: 1.1rem;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 .nav_link:hover {
-    color: rgb(255, 166, 0);
+    color: var(--primary-yellow);
 }
 
 .nav_ul a::after {
@@ -53,7 +53,7 @@ header {
     left: 50%;
     transform: translate(-50%);
     border-radius: 2px;
-    background: rgb(255, 166, 0);
+    background: var(--primary-yellow);
     transition: all ease 0.5s;
 }
 
@@ -62,7 +62,7 @@ header {
 }
 
 .nav_ul a.active {
-    color: rgb(255, 166, 0);
+    color: var(--primary-yellow);
 }
 
 .nav_ul a.active::after {
@@ -78,11 +78,11 @@ header {
 .btn-menu {
     border-radius: 30px;
     padding: 10px 20px;
-    background-color: #4c034d;
+    background-color: var(--primary-color-1);
     border: none;
     cursor: pointer;
     font-weight: 600;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow-1);
     transition: background-color 0.3s ease;
     color: rgb(255, 255, 255);
     font-size: 1rem;
@@ -112,4 +112,3 @@ header {
     align-items: center;
     justify-content: center;
 }
-
