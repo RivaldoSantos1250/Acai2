@@ -49,7 +49,6 @@ $(document).ready(function () {
 
     ScrollReveal().reveal(".main_img", {
         origin: "right",
-        distance: '20%',
         duration: 3000,
     });
     ScrollReveal().reveal(".main_btn", { delay: 1200, duration: 1000 });
