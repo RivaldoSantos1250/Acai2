@@ -1,0 +1,123 @@
+@media (min-width: 992px) {
+    .main_container {
+        grid-template-columns: 2fr 3fr;
+        align-items: center;
+    }
+
+    .main_content h1,
+    .main_content .section_description,
+    .main_btn {
+        text-align: left;
+    }
+    .main_img {
+        grid-area: 1/2/2/3;
+    }
+
+    .section-metadata {
+        text-align: left;
+    }
+
+    .what-we-serve .section-metadata {
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 3.2rem;
+    }
+
+    .card-group {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2.4rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav_bar .nav_ul {
+        display: none;
+    }
+    .nav_bar .btn_menu {
+        display: block;
+    }
+
+    .drop_menu {
+        display: block;
+    }
+    .main_img img {
+        max-width: 300px;
+    }
+    .main_content h1 {
+        font-size: 2.5rem;
+    }
+
+    .main_img {
+        margin-left: 0rem;
+    }
+
+    .section_container {
+        padding: 3rem 0 1rem 1rem;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .drop_menu {
+        top: 100px;
+        left: 2rem;
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dish {
+        width: calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .dish {
+        width: 100%;
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
+    }
+
+    .about {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-img {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .about-img {
+        text-align: center;
+    }
+
+    .about-text h2 {
+        text-align: center;
+    }
+
+    .about-text p {
+        align-items: center;
+    }
+
+    .about-img img {
+        width: 70%;
+    }
+}

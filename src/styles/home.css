@@ -1,0 +1,48 @@
+.section_container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10rem 1rem;
+}
+
+.main_container {
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.main_img {
+    margin-left: 10rem;
+}
+
+.main_img {
+    z-index: 9;
+}
+
+.main_img img {
+    max-width: 600px;
+    margin-inline: auto;
+    display: flex;
+    width: 100%;
+}
+
+.main_content h1 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.main_content .section_description {
+    margin-bottom: 2rem;
+}
+
+.section_description {
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.main_btn {
+    text-align: center;
+}

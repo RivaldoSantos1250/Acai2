@@ -53,4 +53,45 @@ $(document).ready(function () {
         duration: 3000,
         distance: "80%",
     });
+
+    ScrollReveal().reveal(".section-tagline", { delay: 500, duration: 1000 });
+    ScrollReveal().reveal(".section-title", { delay: 1000, duration: 1000 });
+
+    ScrollReveal().reveal("#card-one", {
+        delay: 600,
+    });
+    ScrollReveal().reveal("#card-two", {
+        delay: 800,
+    });
+    ScrollReveal().reveal("#card-three", {
+        delay: 1000,
+    });
+
+    ScrollReveal().reveal(".about-text", {
+        origin: "right",
+        duration: 2000,
+        distance: "40%",
+    });
+
+    ScrollReveal().reveal(".about-img", {
+        origin: "left",
+        duration: 3000,
+        distance: "70%",
+    });
+
+    ScrollReveal().reveal(".section-title1", { delay: 500, duration: 1000 });
+    ScrollReveal().reveal(".section-subtitle", { delay: 1000, duration: 1000 });
+
+    ScrollReveal().reveal("#dishes", {
+        origin: "left",
+        duration: 2000,
+        distance: "20%",
+    });
+
+    ScrollReveal().reveal(".heading", { delay: 500, duration: 1000 });
+    ScrollReveal().reveal(".customers-container", {
+        origin: "left",
+        duration: 3000,
+        distance: "20%",
+    });
 });
