@@ -29,7 +29,7 @@ body {
 }
 
 section {
-    padding: 28px 8%
+    padding: 28px 8%;
 }
 
 .btn {
@@ -50,4 +50,56 @@ section {
 
 .d-grid {
     display: grid;
+}
+
+footer {
+    background-color: #111;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 30px 30px 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    
+}
+
+.social-media a i {
+    font-size: 1.5rem;
+    color: black;
+    opacity: 0.9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a:hover {
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+.social-media a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+    font-weight: 200;
 }
