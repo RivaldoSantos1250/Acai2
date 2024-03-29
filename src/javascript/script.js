@@ -69,13 +69,13 @@ $(document).ready(function () {
     ScrollReveal().reveal(".about-text", {
         origin: "right",
         duration: 2000,
-        distance: "40%",
+        distance: "20%",
     });
 
     ScrollReveal().reveal(".about-img", {
         origin: "left",
-        duration: 3000,
-        distance: "70%",
+        duration: 2000,
+        distance: "20%",
     });
 
     ScrollReveal().reveal(".section-title1", { delay: 500, duration: 1000 });
@@ -90,7 +90,7 @@ $(document).ready(function () {
     ScrollReveal().reveal(".heading", { delay: 500, duration: 1000 });
     ScrollReveal().reveal(".customers-container", {
         origin: "left",
-        duration: 3000,
+        duration: 2000,
         distance: "20%",
     });
 });
