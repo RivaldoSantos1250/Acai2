@@ -9,6 +9,8 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
         <title>+gostoso</title>
     </head>
     <body>
@@ -22,9 +24,9 @@
                     /></a>
                 </div>
                 <ul class="nav_ul">
-                    <li class="nav_item">
-                        <a href="#" class="nav_link active">Início</a>
-                    </li>
+                    <li class="nav_item  ">
+                        <a href="#inicio" class="nav_link">Início</a>
+                    </li> 
                     <li class="nav_item">
                         <a href="#service" class="nav_link">Serviços</a>
                     </li>
@@ -32,13 +34,16 @@
                         <a href="#about" class="nav_link">Sobre</a>
                     </li>
 
+                    <li class="nav_item">
+                        <a href="#cardapio" class="nav_link">Cardápio</a>
+                    </li>
 
                     <li class="nav_item">
                         <a href="#review" class="nav_link">Avaliações</a>
                     </li>
                 </ul>
-                <a href="#dishes"
-                        ><button class="btn-menu">Cardápio</button></a
+                <a href="#"
+                        ><button class="btn-menu">Peça aqui</button></a
                     >
                 <div class="btn_menu"><i class="fa-solid fa-bars"></i></div>
                 
@@ -60,9 +65,9 @@
             </div>
         </header>
 
-        <main class="section_container main_container" id="home">
-            <div class="main_img">
-                <img src="src/img/main2.png" alt="" />
+        <main class="section_container main_container" id="inicio" >
+            <div class="main_img"id="home">
+                <img  src="src/img/main2.png" alt="" />
             </div>
             <div class="main_content">
                 <h1>Lorem ipsum dolor sit amet.</h1>
@@ -85,7 +90,7 @@
                 <div class="section-metadata">
                     <h2 class="section-tagline">Serviços</h2>
 
-                    <h2 class="title section-title">
+                    <h2 class="title section-title" id="teste">
                         Lorem sectetur adipisicing
                         elit.
                     </h2>
@@ -146,7 +151,7 @@
         </section>
 
 
-        <section id="menu">
+        <section class="menu" id="cardapio">
             <h2 class="section-title1">Cardapio</h2>
             <h3 class="section-subtitle">Açai especiais</h3>
 

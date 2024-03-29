@@ -11,13 +11,13 @@ btnMenu.onclick = function () {
 
 $(document).ready(function () {
     const sections = $("section");
-    const navItems = $(".nav_item");
+    const navLink = $(".nav_link");
     $(window).on("scroll", function () {
         const header = $("header");
 
         const scrollPosition = $(window).scrollTop() - header.outerHeight();
 
-        let activeSectionIndex = 0;
+        let activeSectionIndex = 3;
 
         if (scrollPosition <= 0) {
             header.css("box-shadow", "none");
@@ -26,15 +26,31 @@ $(document).ready(function () {
         }
         sections.each(function (i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 92;
-            const sectionBttom = sectionTop + section.outerHeight();
+            const sectionTop = section.offset().top - 1100;
+            const sectionBottom = sectionTop + section.outerHeight();
 
-            if (scrollPostion >= sectionTop && scrollPosition < sectionBttom) {
+            if (
+                scrollPosition >= sectionTop &&
+                scrollPosition < sectionBottom
+            ) {
                 activeSectionIndex = i;
                 return false;
             }
         });
 
-        $(navItems[activeSectionIndex]).addClass('active');
+        navLink.removeClass("active");
+        $(navLink[activeSectionIndex]).addClass("active");
+    });
+
+    ScrollReveal().reveal(".main_content", {
+        origin: "left",
+        duration: 2000,
+        distance: "40%",
+    });
+
+    ScrollReveal().reveal(".main_img", {
+        origin: "right",
+        duration: 3000,
+        distance: "80%",
     });
 });
