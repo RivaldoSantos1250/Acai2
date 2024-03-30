@@ -1,8 +1,8 @@
 .main_container {
-    min-height: 100vh;
+    min-height: calc(100vh - 116px);
 }
 .section_container {
-    max-width: 1500px;
+    max-width: 1250px;
     margin: auto;
 }
 
