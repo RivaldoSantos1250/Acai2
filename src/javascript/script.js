@@ -44,53 +44,54 @@ $(document).ready(function () {
 
     ScrollReveal().reveal(".main_content", {
         origin: "left",
-        duration: 2000,
+        duration: 1000,
     });
 
     ScrollReveal().reveal(".main_img", {
         origin: "right",
-        duration: 3000,
+        distance: "20%",
+        duration: 2000,
     });
-    ScrollReveal().reveal(".main_btn", { delay: 1200, duration: 1000 });
+    ScrollReveal().reveal(".main_btn", { delay: 500, duration: 500 });
 
-    ScrollReveal().reveal(".section-tagline", { delay: 500, duration: 1000 });
-    ScrollReveal().reveal(".section-title", { delay: 700, duration: 1000 });
+    ScrollReveal().reveal(".section-tagline", { delay: 200, duration: 1000 });
+    ScrollReveal().reveal(".section-title", { delay: 400, duration: 1000 });
 
     ScrollReveal().reveal("#card-one", {
-        delay: 600,
+        delay: 300,
     });
     ScrollReveal().reveal("#card-two", {
-        delay: 700,
+        delay: 400,
     });
     ScrollReveal().reveal("#card-three", {
-        delay: 800,
+        delay: 500,
     });
 
     ScrollReveal().reveal(".about-text", {
         origin: "right",
-        duration: 2000,
+        duration: 1000,
         distance: "20%",
     });
 
     ScrollReveal().reveal(".about-img", {
         origin: "left",
-        duration: 2000,
+        duration: 1000,
         distance: "20%",
     });
 
-    ScrollReveal().reveal(".section-title1", { delay: 500, duration: 1000 });
-    ScrollReveal().reveal(".section-subtitle", { delay: 1000, duration: 1000 });
+    ScrollReveal().reveal(".section-title1", { delay: 400, duration: 1000 });
+    ScrollReveal().reveal(".section-subtitle", { delay: 500, duration: 1000 });
 
     ScrollReveal().reveal("#dishes", {
         origin: "left",
-        duration: 2000,
+        duration: 1000,
         distance: "20%",
     });
 
     ScrollReveal().reveal(".heading", { delay: 500, duration: 1000 });
     ScrollReveal().reveal(".customers-container", {
         origin: "left",
-        duration: 2000,
+        duration: 1000,
         distance: "20%",
     });
 });
