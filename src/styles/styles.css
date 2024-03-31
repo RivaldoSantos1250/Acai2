@@ -110,7 +110,6 @@ footer {
 
 @media (prefers-color-scheme: dark) {
     body,
-    header,
     #service,
     .about,
     .review {
@@ -138,5 +137,8 @@ footer {
     }
     .costumers-box {
         background-color: #313338;
+    }
+    header {
+        background-color: #666666;
     }
 }
