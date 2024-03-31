@@ -115,10 +115,10 @@ footer {
     .about,
     .review {
         color: #ffffff;
-        background-color: #0f0f0f;
+        background-color: #1e1f22;
     }
     .card {
-        background-color: #3c3c3c;
+        background-color: #313338;
     }
 
     .section-title {
@@ -137,6 +137,6 @@ footer {
         color: #ffffff;
     }
     .costumers-box {
-        background-color: #3c3c3c;
+        background-color: #313338;
     }
 }
