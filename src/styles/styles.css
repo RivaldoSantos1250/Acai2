@@ -20,18 +20,12 @@
     --secondary-yellow: rgb(255, 196, 0);
 }
 
-
-
 :root {
     --box-shadow-1: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
 }
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-}
-
-body {
-    background-color: rgba(243, 238, 227, 0.966);
 }
 
 section {
@@ -107,4 +101,20 @@ footer {
 .footer-bottom p {
     color: white;
     font-weight: 200;
+}
+
+@media (prefers-color-scheme: light) {
+
+    body {
+        color: #373737;
+        background-color: rgba(243, 238, 227, 0.966);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body, header, #service, .about, .review {
+        color: #ffffff;
+        background-color: #0F0F0F;
+    }
 }
