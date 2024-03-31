@@ -53,7 +53,7 @@ section {
 }
 
 footer {
-    background-color: #111;
+    background-color: #000000;
 }
 
 .footer-container {
@@ -89,7 +89,6 @@ footer {
 }
 
 .social-media a:hover i {
-    color: white;
     transition: 0.5s;
 }
 
@@ -99,12 +98,10 @@ footer {
 }
 
 .footer-bottom p {
-    color: white;
     font-weight: 200;
 }
 
 @media (prefers-color-scheme: light) {
-
     body {
         color: #373737;
         background-color: rgba(243, 238, 227, 0.966);
@@ -112,9 +109,29 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-
-    body, header, #service, .about, .review {
+    body,
+    header,
+    #service,
+    .about,
+    .review {
         color: #ffffff;
-        background-color: #0F0F0F;
+        background-color: #0f0f0f;
+    }
+    .card {
+        background-color: #000000;
+    }
+    .section-title {
+        color: #ffffff;
+    }
+    .about-text p {
+        color: #ffffff;
+    }
+
+    .dish {
+        color: rgb(0, 0, 0);
+    }
+
+    #review {
+        color: #000000;
     }
 }
