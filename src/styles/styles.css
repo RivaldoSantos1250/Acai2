@@ -118,8 +118,9 @@ footer {
         background-color: #0f0f0f;
     }
     .card {
-        background-color: #000000;
+        background-color: #3c3c3c;
     }
+
     .section-title {
         color: #ffffff;
     }
@@ -128,10 +129,14 @@ footer {
     }
 
     .dish {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        background-color: #3c3c3c;
     }
 
     #review {
-        color: #000000;
+        color: #ffffff;
+    }
+    .costumers-box {
+        background-color: #3c3c3c;
     }
 }
