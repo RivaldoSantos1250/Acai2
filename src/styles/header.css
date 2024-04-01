@@ -21,7 +21,7 @@ header {
     display: flex;
     gap: 2rem;
 }
-.nav_logo{ 
+.nav_logo {
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -96,10 +96,10 @@ header {
 .drop_menu {
     position: absolute;
     right: 2rem;
-    top: 60px;
+    top: 80px;
     width: 300px;
     height: 0;
-    background: rgba(249, 255, 249, 0.164);
+    background: rgb(255, 255, 255);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -107,8 +107,18 @@ header {
     display: none;
 }
 
+.drop_menu a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: all ease 0.5s;
+    padding: 5px 5px;
+    margin: 0px 15px;
+    color: var(--primary-color-1);
+    font-size: 1.1rem;
+}
+
 .drop_menu.open {
-    height: 240px;
+    height: 360px;
 }
 
 .drop_menu li {
@@ -116,4 +126,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-down {
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: var(--primary-color-1);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: var(--box-shadow-1);
+    transition: background-color 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+.btn-down:hover {
+    background-color: var(--primary-color-2);
 }
