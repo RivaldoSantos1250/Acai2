@@ -42,16 +42,17 @@ $(document).ready(function () {
         $(navLink[activeSectionIndex]).addClass("active");
     });
 
-    ScrollReveal().reveal(".main_content", {
+    ScrollReveal().reveal(".home-title", {
         origin: "left",
         duration: 1000,
     });
 
-    ScrollReveal().reveal(".main_img", {
+    ScrollReveal().reveal(".home-img", {
         origin: "right",
         distance: "20%",
         duration: 2000,
     });
+
     ScrollReveal().reveal(".main_btn", { delay: 500, duration: 500 });
 
     ScrollReveal().reveal(".section-tagline", { delay: 200, duration: 1000 });
