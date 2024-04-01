@@ -34,7 +34,7 @@ section {
 
 .btn {
     border-radius: 30px;
-    padding: 15px 25px;
+    padding: 10px 15px;
     background-color: var(--primary-color-1);
     border: none;
     cursor: pointer;
@@ -45,7 +45,7 @@ section {
 }
 
 .btn:hover {
-    background-color: var(--primary-color-1);
+    background-color: var(--primary-color-2);
 }
 
 .d-grid {
@@ -54,6 +54,10 @@ section {
 
 footer {
     background-color: #000000;
+}
+
+.footer-bottom {
+    color: white;
 }
 
 .footer-container {
@@ -84,7 +88,7 @@ footer {
 }
 
 .social-media a:hover {
-    background-color: #000000;
+    background-color: var(--primary-color-1);
     transition: 0.5s;
 }
 
@@ -102,7 +106,26 @@ footer {
 }
 
 body {
-   background-color: rgba(243, 238, 227, 0.966);
+    background-color: rgba(243, 238, 227, 0.966);
+}
+
+.social-media .fa-whatsapp {
+    color: #25d366;
+}
+.social-media .fa-instagram {
+    color: #d400f0;
+}
+
+.social-media .fa-facebook {
+    color: #0866ff;
+}
+
+.social-media .fa-twitter {
+    color: #50abf1;
+}
+
+.social-media .fa-tiktok {
+    color: #000000;
 }
 
 /*

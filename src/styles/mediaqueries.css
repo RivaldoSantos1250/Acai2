@@ -81,7 +81,7 @@
     }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 720px) {
     .dish {
         width: 100%;
     }
