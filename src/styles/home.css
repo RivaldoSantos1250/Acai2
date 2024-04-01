@@ -1,5 +1,5 @@
 .main_container {
-    min-height: calc(100vh - 116px);
+    min-height: calc(100vh - 60px);
 }
 .section_container {
     max-width: 1250px;
