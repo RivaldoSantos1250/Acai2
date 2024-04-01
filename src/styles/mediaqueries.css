@@ -1,16 +1,9 @@
 @media (min-width: 992px) {
-    .main_container {
-        grid-template-columns: 2fr 3fr;
-        align-items: center;
-    }
 
     .main_content h1,
     .main_content .section_description,
     .main_btn {
         text-align: left;
-    }
-    .main_img {
-        grid-area: 1/2/2/3;
     }
 
     .section-metadata {
@@ -41,16 +34,6 @@
 
     .drop_menu {
         display: block;
-    }
-    .main_img img {
-        max-width: 300px;
-    }
-    .main_content h1 {
-        font-size: 2.5rem;
-    }
-
-    .main_img {
-        margin-left: 0rem;
     }
 
     .section_container {
@@ -97,11 +80,33 @@
     .about-img {
         text-align: center;
     }
-    
+
+    .home {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home-img {
+        text-align: center;
+    }
 }
 
-
 @media screen and (max-width: 860px) {
+    .home {
+        grid-template-columns: 1fr;
+    }
+
+    .home-img {
+        text-align: center;
+    }
+
+    .home-title h2 {
+        text-align: center;
+    }
+
+    .home-title p {
+        align-items: center;
+    }
+
     .about {
         grid-template-columns: 1fr;
     }
@@ -114,7 +119,7 @@
         text-align: center;
     }
 
-    .about-text p {
+    .home-title p {
         align-items: center;
     }
 
