@@ -101,6 +101,12 @@ footer {
     font-weight: 200;
 }
 
+body {
+   background-color: rgba(243, 238, 227, 0.966);
+}
+
+/*
+
 @media (prefers-color-scheme: light) {
     body {
         color: #373737;
@@ -120,9 +126,7 @@ footer {
         background-color: #313338;
     }
 
-    .section-title {
-        color: #ffffff;
-    }
+    .section-title,
     .about-text p {
         color: #ffffff;
     }
@@ -142,3 +146,5 @@ footer {
         background-color: #313338;
     }
 }
+
+*/

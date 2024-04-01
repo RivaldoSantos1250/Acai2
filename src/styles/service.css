@@ -1,29 +1,29 @@
-.what-we-serve {
+.service {
     background-color: rgba(243, 238, 227, 0.966);
     padding: 10rem 0 0 0rem;
 }
 
-span .section-tagline {
+.service-title {
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--primary-color-1);
     line-height: 2.4rem;
     margin-bottom: 0.8rem;
+    font-size: 1.7rem;
+    
 }
 
-.section-title {
-    font-size: 2.3rem;
-    line-height: 3rem;
+.service-subtitle {
+    font-size: 2rem;
+    line-height: 2rem;
     margin-bottom: 2.2rem;
     color: black;
     font-weight: 300;
+    padding: 0 15px 0 15px;
 }
 
 .section-metadata {
     text-align: center;
-    font-weight: 500;
-    color: var(--primary-color-1);
-    line-height: 2.4rem;
     margin-bottom: 0.8rem;
 }
 

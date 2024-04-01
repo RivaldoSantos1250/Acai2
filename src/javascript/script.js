@@ -68,7 +68,6 @@ $(document).ready(function () {
     });
 
     ScrollReveal().reveal(".about-text", {
-        origin: "right",
         duration: 1000,
         distance: "20%",
     });

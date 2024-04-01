@@ -21,8 +21,13 @@ header {
     display: flex;
     gap: 2rem;
 }
-.logo img {
-    font-size: 2rem;
+.nav_logo{ 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav_logo a {
+    text-decoration: none;
 }
 
 .nav_ul a {
