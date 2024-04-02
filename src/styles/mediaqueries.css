@@ -88,11 +88,18 @@
     .home-img {
         text-align: center;
     }
+    .about-text h2 {
+        text-align: center;
+    }
+    .about-text p {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 860px) {
     .home {
         grid-template-columns: 1fr;
+        text-align: center;
     }
 
     .home-img {
@@ -120,7 +127,7 @@
     }
 
     .home-title p {
-        align-items: center;
+        text-align: center;
     }
 
     .about-img img {
