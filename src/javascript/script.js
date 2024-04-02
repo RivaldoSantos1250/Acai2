@@ -44,11 +44,12 @@ $(document).ready(function () {
 
     ScrollReveal().reveal(".home-title", {
         origin: "left",
-        duration: 1000,
+        distance: "20%",
+        duration: 2000,
     });
 
     ScrollReveal().reveal(".home-img", {
-        origin: "right",
+        origin: "left",
         distance: "20%",
         duration: 2000,
     });
@@ -79,8 +80,8 @@ $(document).ready(function () {
         distance: "20%",
     });
 
-    ScrollReveal().reveal(".section-title1", { delay: 400, duration: 1000 });
-    ScrollReveal().reveal(".section-subtitle", { delay: 500, duration: 1000 });
+    ScrollReveal().reveal(".service-title", { delay: 400, duration: 1000 });
+    ScrollReveal().reveal(".service-subtitle", { delay: 500, duration: 1000 });
 
     ScrollReveal().reveal("#dishes", {
         origin: "left",
