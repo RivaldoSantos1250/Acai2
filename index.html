@@ -1,318 +1,206 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" class="light">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="src/styles/styles.css" />
+        <meta
+            name="description"
+            content="Açaí artesanal, feito com ingredientes frescos e entregue na sua casa. Experimente a explosão de sabor que só o +Gostoso oferece!"
+        />
+        <link id="favicon-light" rel="icon" href="src/img/favicons/favicon-light.png" media="(prefers-color-scheme: light)" />
+        <link id="favicon-dark" rel="icon" href="src/img/favicons/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap"
+            rel="stylesheet"
+        />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <title>+Gostoso</title>
+        <link rel="stylesheet" href="src/styles/styles.css" />
+        <title>+Gostoso | Açaí que te move</title>
     </head>
-
     <body>
-        <!-- NavBar -->
-        <header>
-            <div class="nav_bar">
-                <div class="nav_logo">
-                    <a href="#homea"
-                        >LOGO</a>
-                </div>
+        <div id="particles-js"></div>
 
-                <ul class="nav_ul">
-                    <li class="nav_item  ">
-                        <a href="#home" class="nav_link active">Início</a>
-                    </li> 
-                    <li class="nav_item">
-                        <a href="#service" class="nav_link">Serviços</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#about" class="nav_link">Sobre</a>
-                    </li>
-
-                    <li class="nav_item">
-                        <a href="#cardapio" class="nav_link">Cardápio</a>
-                    </li>
-
-                    <li class="nav_item">
-                        <a href="#review" class="nav_link">Avaliações</a>
-                    </li>
-
+        <header id="header" role="banner">
+            <nav class="nav-container" role="navigation" aria-label="Navegação principal">
+                <a href="#" class="nav-logo">LOGO+</a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#promotions" class="nav-link">Promoções</a></li>
+                    <li><a href="#build" class="nav-link">Monte o Seu</a></li>
+                    <li><a href="#menu" class="nav-link">Cardápio</a></li>
+                    <li><a href="#reviews" class="nav-link">Clientes</a></li>
                 </ul>
-                    <a href="https://www.whatsapp.com"><button class="btn">Peça aqui</button></a>
-                    <div class="btn_menu"><i class="fa-solid fa-bars"></i>
-                    </div>
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="theme-button" aria-label="Alternar tema claro e escuro">
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <a href="https://wa.me/SEUNUMERO" class="btn btn-primary">Peça Agora</a>
+                    <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button>
                 </div>
-
-            <div class="drop_menu">
-                <ul>
-                <li class="nav_item  ">
-                    <a href="#home" class="nav_link active">Início</a>
-                </li> 
-                <li class="nav_item">
-                    <a href="#service" class="nav_link">Serviços</a>
-                </li>
-                <li class="nav_item">
-                    <a href="#about" class="nav_link">Sobre</a>
-                </li>
-
-                <li class="nav_item">
-                    <a href="#cardapio" class="nav_link">Cardápio</a>
-                </li>
-
-                <li class="nav_item">
-                    <a href="#review" class="nav_link">Avaliações</a>
-                </li>
-                <li><a href="https://www.whatsapp.com"><button class="btn-down">Peça aqui</button></a>
-                    </div></li>
-            </ul>
-            
-            </div>
+            </nav>
         </header>
 
-        <!-- End NavBar -->
-
-        <!-- Main -->
-        <section class="home" id="home">
-            
-            <div class="home-title">
-                <h2>Lorem ipsum dolor</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim modi autem, dignissim</p>
-                <p><a href="https://www.whatsapp.com"><button class="btn-menu"2>Peça aqui</button></a></p>
-            </div>
-            <div class="home-img"><img src="src/img/main2.png" alt=""></div>
-        </section>
-        <!-- End Main -->
-
-        <!-- Services -->
-
-        <section class="service" id="service">
-            <div class="container1">
-                <div class="section-metadata">
-                    <h2 class="service-title">Serviços</h2>
-
-                    <h2 class="service-subtitle">
-                        Lorem sectetur adipisicing
-                        elit.
-                    </h2>
+        <main role="main">
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title animate-on-scroll">
+                        <span class="gradient-text">Açaí que te move.</span>
+                    </h1>
+                    <p class="hero-subtitle animate-on-scroll">
+                        Sinta a energia e o sabor autêntico do nosso açaí, preparado na hora com os ingredientes mais frescos.
+                    </p>
+                    <a href="#promotions" class="btn btn-secondary animate-on-scroll">Ver ofertas! <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <div class="card-group d-grid">
-                    <div class="card" id="card-one">
-                        <div class="card-header">
-                            <img src="src/img/delivery.png" alt="" />
+                <div class="hero-image-container animate-on-scroll">
+                    <img src="src/img/main2.png" alt="Copos de açaí cremosos e decorados com frutas e toppings" class="hero-image"/>
+                </div>
+            </section>
+
+            <section id="promotions" class="promotions-section">
+                <h2 class="section-title animate-on-scroll"><span class="gradient-text">Ofertas que você não pode perder</span></h2>
+                <div class="promotions-grid">
+                    <div class="promo-card promo-card-highlight animate-on-scroll">
+                        <div class="promo-card-highlight-tag" aria-hidden="true">Oferta Relâmpago</div>
+                        <div class="promo-card-icon" aria-hidden="true">
+                           <i class="fas fa-bolt"></i>
                         </div>
-                        <div class="card-body">
-                            <h3 class="title card-tittle">
-                                Lorem ipsum dolor sit amet
-                            </h3>
-                            <p>
-                                Lorem ipsum dolor sit amet Lorem ipsum dolor sit
-                                amet
-                            </p>
+                        <h3>Combo da Madrugada</h3>
+                        <p>Um açaí de 500ml + um suco de 300ml para turbinar sua noite.</p>
+                        <div id="countdown" class="countdown" aria-label="Contagem regressiva para o fim da oferta">
+                            <div class="countdown-item"><span id="hours">00</span><span>Horas</span></div>
+                            <div class="countdown-item"><span id="minutes">00</span><span>Minutos</span></div>
+                            <div class="countdown-item"><span id="seconds">00</span><span>Segundos</span></div>
+                        </div>
+                        <a href="https://wa.me/SEUNUMERO?text=Olá!%20Quero%20a%20Oferta%20Relâmpago!" class="btn btn-primary">Aproveitar Agora!</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="build" class="build-section">
+                <h2 class="section-title animate-on-scroll"><span class="gradient-text">Monte seu Açaí</span></h2>
+                <div class="build-container">
+                    <div class="build-bowl-area animate-on-scroll">
+                        <div id="acai-bowl" class="acai-bowl" aria-live="polite" aria-atomic="true">
+                            <img src="src/img/about.png" alt="Tigela de açaí com granola e castanhas, pronta para ser personalizada" class="bowl-base-img" />
+                            <div id="toppings-display" class="toppings-display"></div>
+                        </div>
+                         <p class="build-price" aria-live="polite">Total: <span id="build-total-price">R$ 18,00</span></p>
+                         <a id="whatsapp-order-link" href="https://wa.me/SEUNUMERO?text=Olá!%20Quero%20montar%20meu%20açaí!" class="btn btn-primary">Pedir Açaí Personalizado</a>
+                    </div>
+                    <div class="build-toppings-area animate-on-scroll">
+                        <h3 id="toppings-label">Escolha seus toppings:</h3>
+                        <div class="toppings-grid" role="group" aria-labelledby="toppings-label">
+                            <button class="topping-card" data-price="2.50" data-name="Morango">
+                                <img src="src/img/toppings/morango.png" alt=""><span>Morango</span>
+                            </button>
+                            <button class="topping-card" data-price="2.00" data-name="Banana">
+                                <img src="src/img/toppings/banana.png" alt=""><span>Banana</span>
+                            </button>
+                             <button class="topping-card" data-price="3.50" data-name="Leite em Po">
+                                <img src="src/img/toppings/leite.png" alt=""><span>Leite em Pó</span>
+                            </button>
+                            <button class="topping-card" data-price="4.00" data-name="Nutella">
+                               <img src="src/img/toppings/nutella.png" alt=""><span>Nutella</span>
+                            </button>
+                             <button class="topping-card" data-price="3.00" data-name="Granola">
+                               <img src="src/img/toppings/granola.png" alt=""><span>Granola</span>
+                            </button>
                         </div>
                     </div>
-                    <div class="card" id="card-two">
-                        <div class="card-header">
-                            <img src="src/img/Corpos.png" alt="" />
+                </div>
+            </section>
+
+            <section id="menu" class="menu-section">
+                <h2 class="section-title animate-on-scroll"><span class="gradient-text">Ou escolha nossos campeões de venda</span></h2>
+                <div class="menu-grid">
+                    <article class="menu-card animate-on-scroll">
+                        <img src="src/img/copo.png" alt="Copo de açaí com morango, banana e leite condensado" class="menu-card-img" />
+                        <div class="menu-card-body">
+                            <span class="menu-card-tag">Mais Pedido</span>
+                            <h3>Açaí Clássico</h3>
+                            <p>Açaí tradicional com banana, morango e granola crocante.</p>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">R$20,00</span>
+                                <a href="https://wa.me/SEUNUMERO?text=Olá!%20Quero%20um%20Açaí%20Clássico." class="btn-icon" aria-label="Pedir Açaí Clássico pelo WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h3 class="title card-tittle">Lorem ipsum dolor</h3>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur
-                                aipisicing elit. Magni
-                            </p>
+                    </article>
+                    <article class="menu-card animate-on-scroll">
+                        <img src="src/img/copo.png" alt="Copo de açaí com Nutella e creme de Ninho" class="menu-card-img" />
+                         <div class="menu-card-body">
+                            <span class="menu-card-tag">Doce na Medida</span>
+                            <h3>Ninho & Nutella</h3>
+                            <p>A combinação perfeita de creme de Leite Ninho e Nutella original.</p>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">R$22,00</span>
+                                <a href="https://wa.me/SEUNUMERO?text=Olá!%20Quero%20um%20Açaí%20Ninho%20%26%20Nutella." class="btn-icon" aria-label="Pedir Açaí Ninho e Nutella pelo WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" id="card-three">
-                        <div class="card-header">
-                            <img src="src/img/desconto.png" alt="" />
+                    </article>
+                    <article class="menu-card animate-on-scroll">
+                        <img src="src/img/about.png" alt="Tigela de açaí com mix de frutas tropicais" class="menu-card-img" />
+                         <div class="menu-card-body">
+                            <span class="menu-card-tag">Refrescante</span>
+                            <h3>Mix de Frutas</h3>
+                            <p>Uma salada de frutas no seu açaí, com kiwi, manga e uva.</p>
+                            <div class="menu-card-footer">
+                                <span class="menu-card-price">R$23,00</span>
+                                <a href="https://wa.me/SEUNUMERO?text=Olá!%20Quero%20um%20Açaí%20Mix%20de%20Frutas." class="btn-icon" aria-label="Pedir Açaí Mix de Frutas pelo WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h3 class="title card-tittle">
-                                Lorem ipsum dolor sit amet
-                            </h3>
-                            <p>
-                                Lorem ipsum dolor sit amet Lorem ipsum dolor sit
-                                amet
-                            </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="reviews" class="testimonials-section">
+                <h2 class="section-title animate-on-scroll"><span class="gradient-text">Aprovado por quem entende</span></h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card animate-on-scroll">
+                        <img src="src/img/perfil2.png" alt="Foto da cliente Maria Julia" class="testimonial-img" />
+                        <div class="testimonial-stars" aria-label="Avaliação: 5 de 5 estrelas">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
+                        <blockquote>
+                            <p>“Incrível! O açaí é super cremoso e os ingredientes são muito frescos. A entrega foi super rápida, virei fã!”</p>
+                        </blockquote>
+                        <cite>Maria Julia</cite>
+                    </div>
+                    <div class="testimonial-card animate-on-scroll">
+                        <img src="src/img/perfil1.png" alt="Foto do cliente Gabriel Franco" class="testimonial-img" />
+                        <div class="testimonial-stars" aria-label="Avaliação: 4.5 de 5 estrelas">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <blockquote>
+                            <p>“Finalmente um açaí de qualidade na região. O de Ninho com Nutella é de outro mundo. Recomendo demais!”</p>
+                        </blockquote>
+                        <cite>Gabriel Franco</cite>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
 
-        <!-- End Services -->
-
-        <!-- About -->
-
-        <section class="about" id="about">
-            <div class="about-img"><img src="src/img/about.png" alt=""></div>
-            <div class="about-text">
-                <h2>Lorem ipsum dolor, sit amet</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim modi autem, dignissimos suscipit libero ratione reprehenderit in debitis dolor aliquid temporibus. Provident ducimus unde, tempora eligendi deserunt reprehenderit nemo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> <br>
-                Ea deserunt, culpa quam repellat explicabo et officiis facere, quasi magnam eveniet fugit sequi id enim fuga consequuntur illo quibusdam vitae rem!</p>
-            </div>
-        </section>
-
-        <!-- End About-->
-
-        <!-- Menu -->
-
-        <section class="menu" id="cardapio">
-            <h2 class="menu-title">Cardapio</h2>
-            <h3 class="menu-subtitle">Açai especiais</h3>
-            <div id="dishes">
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <img src="src/img/copo.png" alt="" class="dish-image" />
-                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
-                    <span class="dish-description"
-                        >Lorem ipsum dolor sit amet consectetur ?</span
-                    >
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <div class="main_btn">
-                        <a href="https://www.whatsapp.com/" target="_blank"
-                            ><button class="btn">PEÇA JÁ</button></a
-                        >
-                    </div>
-                    </div>
-                </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <img src="src/img/copo.png" alt="" class="dish-image" />
-                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
-                    <span class="dish-description"
-                        >Lorem ipsum dolor sit amet consectetur ?</span
-                    >
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <div class="main_btn">
-                        <a href="https://www.whatsapp.com/" target="_blank"
-                            ><button class="btn">PEÇA JÁ</button></a
-                        >
-                    </div>
-                    </div> 
-                </div>
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <img src="src/img/copo.png" alt="" class="dish-image" />
-                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
-                    <span class="dish-description"
-                        >Lorem ipsum dolor sit amet consectetur ?</span
-                    >
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <div class="main_btn">
-                        <a href="https://www.whatsapp.com/" target="_blank"
-                            ><button class="btn">PEÇA JÁ</button></a
-                        >
-                    </div>
-                    </div>
-                </div>
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <img src="src/img/copo.png" alt="" class="dish-image" />
-                    <h3 class="dish-title">Lorem ipsum doloron!</h3>
-                    <span class="dish-description"
-                        >Lorem ipsum dolor sit amet consectetur ?</span
-                    >
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <div class="main_btn">
-                        <a href="https://www.whatsapp.com/" target="_blank"
-                            ><button class="btn">PEÇA JÁ</button></a
-                        >
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End Menu -->
-
-        <!-- Reviews -->
-
-        <section class="review" id="review">
-            <div class="heading">
-                <h2>Nossos Clientes</h2>
-            </div>
-            <div class="customers-container">
-                <div class="costumers-box">
-                    <img src="src/img/perfil2.png" alt="">
-                    <h2>Maria Julia</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, magni Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero aliquam repellat, non blanditiis deleniti sapiente</p>
-                    
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                </div>
-                <div class="costumers-box">
-                    <img src="src/img/perfil1.png" alt="">
-                    <h2>Gabriel Franco</h2>
-                    
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, magni Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero aliquam repellat, non blanditiis deleniti sapiente</p>
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    
-                </div>
-                <div class="costumers-box">
-                    <img src="src/img/perfil1.png" alt="">
-                    <h2>Gabriel Franco</h2>
-                    
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, magni Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero aliquam repellat, non blanditiis deleniti sapiente</p>
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                    </div>
-                    
-            </div>
-        </section>
-
-        <!-- End Reviews -->
-
-        <footer>
-        <div class="footer-container">
-            <div class="social-media">
-                <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> </a> 
-                <a href="https://www.x.com" target="_blank"><i class="fa-brands fa-twitter"></i> </a>
-                <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i> </a>
-            </div>
-
-
+        <footer class="footer" role="contentinfo">
             <div class="footer-bottom">
-                <p>&copy2024 Açai</p>
+                <p>&copy; 2024 +Gostoso. Todos os direitos reservados. Feito com ❤️.</p>
             </div>
-
-        </div>
         </footer>
 
+        <button id="voice-command-btn" class="fixed-action-btn voice-btn" aria-label="Ativar comando de voz">
+            <i class="fas fa-microphone"></i>
+        </button>
+        <a href="#" id="back-to-top-btn" class="fixed-action-btn back-to-top-btn" aria-label="Voltar ao topo da página">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <script src="src/javascript/script.js"></script>
     </body>
 </html>
